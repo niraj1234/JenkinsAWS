@@ -19,7 +19,7 @@ public class ProductController {
 	@GetMapping("/")
 	public ResponseEntity<String> getAllData(){
 
-		return new ResponseEntity<String>("JenkinsAWS Project Root Path Called ===>  "+ new Date() , HttpStatus.OK);
+		return new ResponseEntity<String>("JenkinsAWS Project Root Path Called Niraj-1 ===>  "+ new Date() , HttpStatus.OK);
 	}	
 	
 
